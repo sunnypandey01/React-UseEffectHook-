@@ -1,16 +1,77 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Hooks Counter App
 
-Currently, two official plugins are available:
+A simple counter application built using React and the useState hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Increment counter
+- Decrement counter
+- React functional components
+- React Hooks (useState)
+- Built with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- Vite
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-hooks-counter.git
+```
+
+Go into project folder:
+
+```bash
+cd react-hooks-counter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+## Learning Goals
+
+This project helped me learn:
+
+- React basics
+- JSX
+- Event handling
+- useState hook
+- Component re-rendering
+- Git and GitHub workflow
+
+## Project Structure
+
+```txt
+src/
+ ├── App.jsx
+ ├── main.jsx
+ ├── App.css
+ └── assets/
+```
+
+## Future Improvements
+
+- Add reset button
+- Add dark mode
+- Improve UI design
+- Add local storage support
+
+## Author
+
+Sunny Pandey
